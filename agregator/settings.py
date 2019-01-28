@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'agregator.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'djangogirls',
+        'NAME': 'django-agregator',
         'USER': 'name',
         'PASSWORD': '',
         'HOST': 'localhost',
