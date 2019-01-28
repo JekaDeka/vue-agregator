@@ -7,6 +7,9 @@ yarn-error.log*
 /test/unit/coverage/
 /test/e2e/reports/
 selenium-debug.log
+env
+*.pyc
+__pycache__
 
 # Editor directories and files
 .idea
@@ -15,3 +18,4 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+
