@@ -1,0 +1,26 @@
+.button_proposal{
+  margin-top: 10px;
+  padding-top: 10px;
+
+}
+.button_proposal button{
+background-color: #20bfa9; /* Hex */
+border: none;
+color: white;
+padding: 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+.five_list_rigth_button{
+background-color: #20bfa9; /* Hex */
+border: none;
+color: white;
+padding: 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}

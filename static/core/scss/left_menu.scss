@@ -1,0 +1,157 @@
+@import "./variable";
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+#search_left {
+  width: 188px;
+
+  .select {
+    div {
+      img {
+        right: 5px;
+      }
+    }
+  }
+
+  .button {
+    button {
+      margin-left: 20px;
+      height: 35px;
+    }
+  }
+
+  .container {
+    .row {
+      .col {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+.emblem-end {
+  margin-top: $margin-top-left-menu;
+
+  img {
+    padding-left: 40px;
+  }
+}
+
+.link-syle {
+  margin-top: $margin-top-left-menu;
+  background: $background-color;
+
+  .title-text {
+    margin-top: 10px;
+
+    a {
+      padding-left: 10px;
+      color: $color-text;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.proposal-button {
+  margin-top: $margin-top-left-menu;
+
+  button {
+    background: $color-button;
+    color: $background-color;
+    height: 40px;
+    border: 0;
+  }
+
+  button:hover {
+    background: $color-button-hover;
+    cursor: pointer;
+  }
+}
+
+.social {
+  margin-top: $margin-top-left-menu;
+
+  img {
+    margin-right: 17px;
+  }
+}
+
+.link-syle:hover {
+  background: $background-color;
+}
+
+.number {
+  padding-top: 10px;
+  font-family: $font-family-text;
+  color: $color-text;
+  text-align: center;
+  margin-bottom: 10px;
+
+  div {
+    text-decoration: underline;
+  }
+}
+
+.rigth-select {
+  width: 160px;
+  max-height: 150px;
+  overflow-y: scroll;
+
+  div {
+    background: $background-befor-hover;
+    cursor: pointer;
+    margin-bottom: 1px;
+
+    img {
+      position: absolute;
+      right: 5px;
+      top: 9px;
+    }
+  }
+}
+
+.affliation-text {
+  font-family: $font-family-text;
+  color: $color-affiliation-text;
+}
+
+.error-message {
+  font-size: 13px;
+  font-family: $font-family-text;
+  color: $color-error-message;
+}
+
+.affliation-text:hover {
+  background: $background-befor-hover;
+}
+
+.title-text {
+  font-family: $font-family-text;
+  color: $color-text;
+}
+
+.title-text:hover {
+  background: $background-hover;
+}
+
+.types-object {
+  background: $background-befor-hover;
+  color: $color-types-text;
+  margin-bottom: 1px;
+}
+
+.type-text:hover {
+  background: $background-hover;
+}
+
+.types-object:hover {
+  background: $background-hover;
+}
+
+.main-text {}

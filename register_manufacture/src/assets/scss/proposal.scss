@@ -1,0 +1,105 @@
+.ProposalDialog {
+  .button {
+    cursor: pointer;
+
+    img:hover {
+      background: #e3e3e3;
+    }
+  }
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  display: none;
+  pointer-events: none;
+}
+
+.ProposalDialog > div {
+  position: relative;
+  margin: 10% 200px;
+  border-radius: 5px;
+  background: #ffffff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+}
+
+.ProposalDialog:target {
+  display: block;
+  pointer-events: auto;
+}
+
+#proposal {
+  .clol-sm,
+  .col,
+  .col-lg {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .text-aff {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #000000;
+    font-family: "Raleway";
+    font-weight: 900;
+  }
+
+  .filter-select {
+    border-bottom: 1px solid;
+    border-bottom-color: #595959;
+  }
+
+  .input {
+    margin-top: 10px;
+  }
+
+  .link {
+    a {
+      text-align: center;
+      font-size: 15px;
+      letter-spacing: 2px;
+      color: #ffffff;
+      border: none;
+      font-family: "Intro";
+    }
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+    background: #20bfa9;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .link:hover {
+    background: #00b38f;
+  }
+
+  .select-text {
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 34px;
+    color: #595959;
+    font-family: "Raleway";
+    font-weight: 275;
+  }
+
+  .select-text:hover {
+    background: #e8e8e8;
+  }
+
+  .select-scroll {
+    max-height: 200px;
+    overflow-y: scroll;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "agregator",
+  "version": "1.0.0",
+  "description": "> A Vue.js project",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "sass": "^1.16.0",
+    "vue": "^2.5.22",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "scss": "node-sass --watch ./core/static/core/scss -o ./core/static/core/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Hvids@bitbucket.org/Hvids/agregator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Hvids/agregator#readme"
+}

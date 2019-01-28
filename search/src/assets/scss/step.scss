@@ -1,0 +1,204 @@
+#filter_search {
+  margin-left: 55px;
+
+  .result {
+    background: #20bfa9;
+    width: 97%;
+    text-align: center;
+    height: 36px;
+
+    a {
+      text-align: center;
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #ffffff;
+      border: none;
+      font-family: "Intro";
+      cursor: pointer;
+      line-height: 30px;
+    }
+  }
+
+  .result:hover {
+    color: #ffffff;
+    background: #00b38f;
+  }
+}
+
+#step_search {
+  .result {
+    margin-top: 50px;
+  }
+}
+
+.result {
+  background: #20bfa9;
+  width: 200px;
+  text-align: center;
+
+  a {
+    padding-left: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    border: none;
+    font-family: "Intro";
+    cursor: pointer;
+    line-height: 30px;
+  }
+}
+
+.result:hover {
+  color: #ffffff;
+  background: #00b38f;
+}
+
+.step-img {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+.butttom-schet {
+  padding-top: 10px;
+  margin: 30px;
+
+  button {
+    line-height: 30px;
+    cursor: pointer;
+    background: #20bfa9;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    border: none;
+    font-family: "Intro";
+  }
+
+  button:hover {
+    background: #00b38f;
+  }
+}
+
+.step-text {
+  margin-bottom: 5px;
+  font-size: 11px;
+  line-height: 25px;
+  color: #848484;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+
+.main-text {
+  margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #333333;
+  font-family: "Raleway";
+  font-weight: 900;
+}
+
+.select-scroll {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.select {
+  a {
+    text-decoration: underline;
+  }
+}
+
+.select-type {
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    font-family: "Lato";
+    font-weight: 500;
+  }
+
+  a:hover {
+    background: #e3e3e3;
+  }
+
+  .all-list:hover {
+    background: #e3e3e3;
+  }
+
+  div {
+    text-decoration: none;
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    font-family: "Lato";
+    font-weight: 500;
+  }
+}
+
+.AffDialog {
+  .button {
+    cursor: pointer;
+
+    img:hover {
+      background: #e3e3e3;
+    }
+  }
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  display: none;
+  pointer-events: none;
+}
+
+.AffDialog > div {
+  position: relative;
+  margin: 10% 200px;
+  border-radius: 5px;
+  background: #ffffff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+}
+
+.AffDialog:target {
+  display: block;
+  pointer-events: auto;
+}
+
+.text-aff {
+  border-bottom-style: solid;
+  border-bottom-color: #848484;
+  border-bottom-width: 1px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #262626;
+  font-family: "Lato";
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+.close {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.close:hover {
+  text-decoration: none;
+  background-color: #e3e3e3;
+}

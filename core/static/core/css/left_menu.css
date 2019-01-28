@@ -1,0 +1,100 @@
+::-webkit-scrollbar {
+  width: 1px; }
+
+#search_left {
+  width: 188px; }
+  #search_left .select div img {
+    right: 5px; }
+  #search_left .button button {
+    margin-left: 20px;
+    height: 35px; }
+  #search_left .container .row .col {
+    padding-left: 0;
+    padding-right: 0; }
+
+.emblem-end {
+  margin-top: 25px; }
+  .emblem-end img {
+    padding-left: 40px; }
+
+.link-syle {
+  margin-top: 25px;
+  background: #f7f7f7; }
+  .link-syle .title-text {
+    margin-top: 10px; }
+    .link-syle .title-text a {
+      padding-left: 10px;
+      color: #595959; }
+    .link-syle .title-text a:hover {
+      text-decoration: none; }
+
+.proposal-button {
+  margin-top: 25px; }
+  .proposal-button button {
+    background: #20bfa9;
+    color: #f7f7f7;
+    height: 40px;
+    border: 0; }
+  .proposal-button button:hover {
+    background: #009999;
+    cursor: pointer; }
+
+.social {
+  margin-top: 25px; }
+  .social img {
+    margin-right: 17px; }
+
+.link-syle:hover {
+  background: #f7f7f7; }
+
+.number {
+  padding-top: 10px;
+  font-family: "Lato";
+  color: #595959;
+  text-align: center;
+  margin-bottom: 10px; }
+  .number div {
+    text-decoration: underline; }
+
+.rigth-select {
+  width: 160px;
+  max-height: 150px;
+  overflow-y: scroll; }
+  .rigth-select div {
+    background: #efefef;
+    cursor: pointer;
+    margin-bottom: 1px; }
+    .rigth-select div img {
+      position: absolute;
+      right: 5px;
+      top: 9px; }
+
+.affliation-text {
+  font-family: "Lato";
+  color: #595959; }
+
+.error-message {
+  font-size: 13px;
+  font-family: "Lato";
+  color: #ff6666; }
+
+.affliation-text:hover {
+  background: #efefef; }
+
+.title-text {
+  font-family: "Lato";
+  color: #595959; }
+
+.title-text:hover {
+  background: #e8e8e8; }
+
+.types-object {
+  background: #efefef;
+  color: #1a1a1a;
+  margin-bottom: 1px; }
+
+.type-text:hover {
+  background: #e8e8e8; }
+
+.types-object:hover {
+  background: #e8e8e8; }

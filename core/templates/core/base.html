@@ -1,0 +1,74 @@
+{% load static %}
+{% load agregator_core_tags %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title></title>
+  {% block stylesheet_main %}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'core/css/background.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/base.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/picture.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/left_menu.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/rigth_menu.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/link.css' %}">
+  <link rel="stylesheet" href="{% static 'core/css/selection_one.css' %}">
+
+
+  <link href="{% static 'core/search/css/app.946902ab.css' %}" rel=preload as=style>
+  <link href="{% static 'core/search/js/app.11961e88.js' %}" rel=preload as=script>
+  <link href="{% static 'core/search/js/chunk-vendors.054de3f9.js' %}" rel=preload as=script>
+  <link href="{% static 'core/search/css/app.946902ab.css' %}" rel=stylesheet>
+  {% endblock %}
+  {% block stylesheet_extra %}
+  {% endblock %}
+</head>
+
+<body>
+  {% block body %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-2 col-sm-2 col-lg-2">
+        {% left_menu %}
+      </div>
+      <div class="col col-sm col-lg">
+        <div class="row">
+          {% rigth_menu %}
+          <div class="row">
+            <div class="col col-sm col-lg">
+              {% block content %}
+              {% endblock %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  {% endblock %}
+  {% block script_main %}
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- <! — vue.js files → -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.5"></script>
+
+
+  <script src="{% static 'core/search/js/chunk-vendors.054de3f9.js' %}"> </script> <script src="{% static 'core/search/js/app.11961e88.js' %}"> </script>
+
+  <script src="{% static 'core/js/vue/base.js' %}">
+
+  {% endblock %}
+  {% block script_extra %}
+  {% endblock %}
+</body>
+
+</html>

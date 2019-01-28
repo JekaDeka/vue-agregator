@@ -1,0 +1,90 @@
+
+.wrapper-rigth-menu{
+  display: grid;
+  grid-template-columns: 100px 70%  5% 150px;
+  grid-template-rows: 135px 50% 100px;
+  width: 100%;
+  background:url(../img/background.png) no-repeat;
+  
+
+}
+.rigth-menu-top{
+  grid-column: 1;
+  grid-row: 1/2;
+}
+.rigth-menu-main{
+  grid-column: 2;
+  grid-row: 2
+}
+
+.rigth-menu-down{
+  grid-column:1/3;
+  grid-row: 3;
+}
+.rigth-menu-image{
+  grid-column: 3;
+  grid-row: 1/3;
+}
+.rigth-menu-rigth{
+  grid-column: 4;
+  grid-row: 1/3;
+}
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15% 85%;
+
+}
+.one {
+
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+
+  grid-column:2;
+  grid-row: 1;
+}
+
+.wrapper-list-rigth{
+  background-color:#f7f7f7;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.one-list-rigth {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two-list-rigth {
+
+  grid-column:2;
+  grid-row: 1;
+}
+.three-list-rigt{
+  grid-column:3;
+  grid-row: 1;
+}
+.four-list-rigth{
+  grid-column:4;
+  grid-row: 1;
+}
+.five-list-rigth{
+
+  background-color:#9de2d9;
+  grid-column:5;
+  grid-row: 1;
+}
+
+.five_list_rigth_button{
+  width: 100%;
+height: 63px;
+background-color: #20bfa9; /* Hex */
+border: none;
+color: white;
+padding: 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}

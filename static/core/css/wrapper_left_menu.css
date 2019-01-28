@@ -1,0 +1,25 @@
+.wrapper-left-menu{
+  display: grid;
+
+  grid-template-rows: 30px  70%;
+}
+.menu-left-emblem-top{
+  grid-row: 1;
+}
+
+.menu-left-two{
+  grid-row: 2;
+}
+.menu-left-list{
+  display: grid;
+  grid-column: 25% 25% 25% 25%;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+
+.menu-left-device-type{
+  grid-row: 1;
+  grid-column: 1/4;
+}
+.selection{
+  
+}

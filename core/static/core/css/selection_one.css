@@ -1,0 +1,36 @@
+.selection-one img {
+  margin-top: 2em; }
+
+.selection-one .headline-one,
+.selection-one .headline-two {
+  margin-left: 0; }
+
+.step-text {
+  font-size: 15px;
+  line-height: 25px;
+  color: #333333;
+  font-family: "Raleway";
+  font-weight: 900; }
+
+.selection-one-text {
+  font-size: 24px;
+  line-height: 25px;
+  color: #333333;
+  font-family: "Raleway";
+  font-weight: 900; }
+
+.show-select:hover {
+  color: #009999; }
+
+.show-select {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 63px;
+  color: #20bfa9;
+  font-family: "Raleway";
+  font-weight: 700; }
+
+.select-button {
+  background: #20bfa9; }

@@ -1,0 +1,36 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% load agregator_core_tags %}
+{% block stylesheet_extra %}
+
+<!-- main_link -->
+<link href="{% static 'core/main_link/css/app.e94521b7.css' %}" rel=preload as=style>
+<link href="{% static 'core/main_link/js/app.3b848199.js' %}" rel=preload as=script>
+<link href="{% static  'core/main_link/js/chunk-vendors.f9a8c153.js' %}" rel=preload as=script>
+<link href="{% static 'core/main_link/css/app.e94521b7.css' %}" rel=stylesheet>
+
+{% endblock %}
+{% block content %}
+<div class=" container">
+  <div class="row">
+    <div class="col col-sm col-lg">
+      <div class="selection" id="SelectionOne">
+        {% selection_one %}
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-sm col-lg">
+      <div class="link">
+        {% main_link %}
+
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block script_extra %}
+
+
+<script src="{% static 'core/main_link/js/chunk-vendors.f9a8c153.js' %}"> </script>
+<script src="{% static 'core/main_link/js/app.3b848199.js' %}"> </script> {% endblock %}

@@ -1,0 +1,46 @@
+#device_models {
+  margin-top: 50px;
+
+  a {
+    text-decoration: none;
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    font-family: "Lato";
+    font-weight: 500;
+  }
+
+  img {
+    cursor: pointer;
+  }
+
+  img:hover {
+    background: #e3e3e3;
+  }
+
+  a:hover {
+    background: #e3e3e3;
+  }
+
+  .all-list {
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    font-family: "Lato";
+    font-weight: 500;
+  }
+
+  .all-list:hover {
+    background: #e3e3e3;
+  }
+
+  .all {
+    max-height: 200px;
+    overflow-y: scroll;
+  }
+}

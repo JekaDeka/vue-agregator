@@ -1,0 +1,29 @@
+.link-rigth-search{
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 63px;
+  color: #686868;
+  text-decoration:none;
+  font-family: "Raleway";
+}
+
+a{
+  text-decoration:none;
+}
+.link-rigth-search:visited {
+  text-decoration: none;
+   color: #686868; /* Цвет посещенных ссылок */
+  }
+.link-rigth-search:active {
+  text-decoration: none;
+   color: #686868; /* Цвет активных ссылок */
+  }
+
+.five-list-rigt a{
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 63px;
+  color: #ffffff;
+  text-decoration:none;
+  font-family: "Raleway";
+}
